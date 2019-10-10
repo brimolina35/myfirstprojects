@@ -1,0 +1,119 @@
+.image {
+  position: absolute;
+  top: 58%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 20;
+  opacity: .75; }
+  .image__1 {
+    background-size: cover;
+    height: 20rem;
+    width: 20rem;
+    background-image: url(../img/bike-and-sunset__unsplash.jpg);
+    background-size: 250px 200px; }
+  .image__2 {
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    background-size: cover;
+    height: 20rem;
+    width: 20rem;
+    background-image: url(../img/man-and-bike__unsplash.jpg);
+    background-size: 250px 200px; }
+  .image__3 {
+    position: absolute;
+    top: 0;
+    left: 70%;
+    background-size: cover;
+    height: 20rem;
+    width: 20rem;
+    background-image: url(../img/bike-and-trees__unsplash.jpg);
+    background-size: 250px 200px; }
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  opacity: .45;
+  z-index: 20; }
+  .bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+
+.header {
+  height: 100vh;
+  background-image: linear-gradient(to top, #780e0e, 40rem, #fabb3c);
+  position: relative; }
+  .header__text-box {
+    height: 10rem;
+    width: 35rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    z-index: 30; }
+
+.heading-primary {
+  height: 100%; }
+  .heading-primary__item-1, .heading-primary__item-2, .heading-primary__item-3 {
+    display: block;
+    text-align: center;
+    z-index: 2000; }
+  .heading-primary__item-1 {
+    font-size: 3rem; }
+  .heading-primary__item-2 {
+    font-size: 2.5rem; }
+
+.navigation {
+  height: 7rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000; }
+  .navigation__nav {
+    height: 7rem;
+    background-color: #fff2c7; }
+  .navigation__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; }
+  .navigation__item {
+    margin: 1rem 1rem; }
+  .navigation__link:link, .navigation__link:visited {
+    display: inline-flex;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 1rem;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase; }
+  .navigation__link:hover, .navigation__link:active {
+    font-weight: 500;
+    color: #994514;
+    transform: translateY(-1rem);
+    transition: all .2s; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #000000;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative; }

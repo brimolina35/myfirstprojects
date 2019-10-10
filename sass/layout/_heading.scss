@@ -1,0 +1,38 @@
+.header {
+  height: 100vh;
+  background-image: linear-gradient(to top, $color-red-dark, 40rem, $color-sunset-orange);
+  position: relative;
+
+  &__text-box {
+    height: 10rem;
+    width: 35rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    z-index: 30;
+  }
+}
+
+.heading-primary {
+    height: 100%;
+
+
+    &__item-1,
+    &__item-2,
+    &__item-3 {
+      display: block;
+      text-align: center;
+      z-index: 2000;
+
+    }
+
+    &__item-1 {
+      font-size: 3rem;
+    }
+
+    &__item-2 {
+      font-size: 2.5rem;
+    }
+}

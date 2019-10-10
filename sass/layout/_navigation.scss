@@ -1,0 +1,48 @@
+.navigation {
+  height: 7rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left:0;
+  z-index: 2000;
+
+  &__nav {
+    height: 7rem;
+    background-color: rgba(255, 242, 199, 1);
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  &__item {
+    margin: 1rem 1rem;
+    }
+
+  &__link {
+        &:link,
+        &:visited {
+            display: inline-flex;
+            font-size: 2rem;
+            font-weight: 500;
+            padding: 1rem;
+            color: $color-black;
+            text-decoration: none;
+            text-transform: uppercase;
+
+        }
+
+        &:hover,
+        &:active{
+            font-weight: 500;
+            color: $color-red-orange-1;
+            transform: translateY(-1rem);
+            transition: all .2s;
+
+
+    }
+  }
+}

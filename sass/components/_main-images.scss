@@ -1,0 +1,72 @@
+.image {
+  position: absolute;
+  top: 58%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 20;
+  opacity: .75;
+
+
+  &__1 {
+  background-size: cover;
+  height: 20rem;
+  width: 20rem;
+    background-image: url(../img/bike-and-sunset__unsplash.jpg);
+    background-size: 250px 200px;
+  }
+  &__2 {
+    position: absolute;
+    top: 5%;
+    left: 35%;
+  background-size: cover;
+  height: 20rem;
+  width: 20rem;
+    background-image: url(../img/man-and-bike__unsplash.jpg);
+    background-size: 250px 200px;
+  }
+  &__3 {
+    position: absolute;
+    top: 0;
+    left: 70%;
+  background-size: cover;
+  height: 20rem;
+  width: 20rem;
+    background-image: url(../img/bike-and-trees__unsplash.jpg);
+    background-size: 250px 200px;
+  }
+
+}
+// &__1 {
+//   display: block;
+//   position: absolute;
+//   top: 0;
+//   left: 3%;
+//   height: 80%;
+//   width: 30%;
+// }
+//
+// &__2 {
+//   display: block;
+//   position: absolute;
+//   top: 0;
+//   left: 35%;
+//   height: 80%;
+//   width: 30%;
+//   padding-left: 1.5%;
+//
+// }
+//
+// &__3 {
+//   display: block;
+//   position: absolute;
+//   top: 0;
+//   left: 67%;
+//   height: 80%;
+//   width: 30%;
+//   padding-left: 1.5%;
+// }
+
+// <img class="image__1" src="img/bike-and-sunset__unsplash.jpg" alt="bike-and-sunset">
+// <img class="image__2" src="img/man-and-bike__unsplash.jpg" alt="man-and-bike">
+// <img class="image__3" src="img/bike-and-trees__unsplash.jpg" alt="bike-and-trees">
